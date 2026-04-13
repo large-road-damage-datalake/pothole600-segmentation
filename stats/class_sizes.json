@@ -1,0 +1,31 @@
+{
+  "columns": [
+    "Class",
+    "Object count",
+    "Avg area (%)",
+    "Max area (%)",
+    "Min area (%)",
+    "Min height (px)",
+    "Min height (%)",
+    "Max height (px)",
+    "Max height (%)",
+    "Avg height (px)",
+    "Avg height (%)"
+  ],
+  "data": [
+    [
+      "pothole",
+      621,
+      6.5255,
+      75.9181,
+      0.0013,
+      1.0,
+      0.25,
+      400.0,
+      100.0,
+      118.45,
+      29.6119
+    ]
+  ],
+  "description": "Area and height are relative to image size where (%) columns are 0-100 scale."
+}

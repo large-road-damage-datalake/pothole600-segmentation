@@ -1,0 +1,28 @@
+{
+  "total_images": 600,
+  "total_annotations": 621,
+  "total_classes": 1,
+  "splits_breakdown": {
+    "training": {
+      "images": 240,
+      "annotations": 244,
+      "classes": {
+        "pothole": 244
+      }
+    },
+    "validation": {
+      "images": 180,
+      "annotations": 180,
+      "classes": {
+        "pothole": 180
+      }
+    },
+    "testing": {
+      "images": 180,
+      "annotations": 197,
+      "classes": {
+        "pothole": 197
+      }
+    }
+  }
+}

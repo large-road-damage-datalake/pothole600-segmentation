@@ -1,0 +1,226 @@
+{
+  "samples": [
+    {
+      "file": "sample_01_c1_pothole.png",
+      "source": "D:/PhD/Datasets/segmentation/pothole600/training/images\\0114.png",
+      "classes": [
+        "pothole"
+      ],
+      "num_classes": 1,
+      "objects": 1,
+      "image_size": {
+        "width": 400,
+        "height": 400
+      },
+      "resized_from": {
+        "width": 400,
+        "height": 400
+      },
+      "annotation_mode": "mask",
+      "annotation_format": "polygon",
+      "annotated_file": null,
+      "annotation_file": "annotations/sample_01_c1_pothole_annotation.polygons.json",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_02_c1_pothole.png",
+      "source": "D:/PhD/Datasets/segmentation/pothole600/training/images\\0025.png",
+      "classes": [
+        "pothole"
+      ],
+      "num_classes": 1,
+      "objects": 1,
+      "image_size": {
+        "width": 400,
+        "height": 400
+      },
+      "resized_from": {
+        "width": 400,
+        "height": 400
+      },
+      "annotation_mode": "mask",
+      "annotation_format": "polygon",
+      "annotated_file": null,
+      "annotation_file": "annotations/sample_02_c1_pothole_annotation.polygons.json",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_03_c1_pothole.png",
+      "source": "D:/PhD/Datasets/segmentation/pothole600/testing/images\\0029.png",
+      "classes": [
+        "pothole"
+      ],
+      "num_classes": 1,
+      "objects": 1,
+      "image_size": {
+        "width": 400,
+        "height": 400
+      },
+      "resized_from": {
+        "width": 400,
+        "height": 400
+      },
+      "annotation_mode": "mask",
+      "annotation_format": "polygon",
+      "annotated_file": null,
+      "annotation_file": "annotations/sample_03_c1_pothole_annotation.polygons.json",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_04_c1_pothole.png",
+      "source": "D:/PhD/Datasets/segmentation/pothole600/testing/images\\0002.png",
+      "classes": [
+        "pothole"
+      ],
+      "num_classes": 1,
+      "objects": 1,
+      "image_size": {
+        "width": 400,
+        "height": 400
+      },
+      "resized_from": {
+        "width": 400,
+        "height": 400
+      },
+      "annotation_mode": "mask",
+      "annotation_format": "polygon",
+      "annotated_file": null,
+      "annotation_file": "annotations/sample_04_c1_pothole_annotation.polygons.json",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_05_c1_pothole.png",
+      "source": "D:/PhD/Datasets/segmentation/pothole600/testing/images\\0159.png",
+      "classes": [
+        "pothole"
+      ],
+      "num_classes": 1,
+      "objects": 1,
+      "image_size": {
+        "width": 400,
+        "height": 400
+      },
+      "resized_from": {
+        "width": 400,
+        "height": 400
+      },
+      "annotation_mode": "mask",
+      "annotation_format": "polygon",
+      "annotated_file": null,
+      "annotation_file": "annotations/sample_05_c1_pothole_annotation.polygons.json",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_06_c1_pothole.png",
+      "source": "D:/PhD/Datasets/segmentation/pothole600/testing/images\\0050.png",
+      "classes": [
+        "pothole"
+      ],
+      "num_classes": 1,
+      "objects": 1,
+      "image_size": {
+        "width": 400,
+        "height": 400
+      },
+      "resized_from": {
+        "width": 400,
+        "height": 400
+      },
+      "annotation_mode": "mask",
+      "annotation_format": "polygon",
+      "annotated_file": null,
+      "annotation_file": "annotations/sample_06_c1_pothole_annotation.polygons.json",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_07_c1_pothole.png",
+      "source": "D:/PhD/Datasets/segmentation/pothole600/testing/images\\0012.png",
+      "classes": [
+        "pothole"
+      ],
+      "num_classes": 1,
+      "objects": 1,
+      "image_size": {
+        "width": 400,
+        "height": 400
+      },
+      "resized_from": {
+        "width": 400,
+        "height": 400
+      },
+      "annotation_mode": "mask",
+      "annotation_format": "polygon",
+      "annotated_file": null,
+      "annotation_file": "annotations/sample_07_c1_pothole_annotation.polygons.json",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_08_c1_pothole.png",
+      "source": "D:/PhD/Datasets/segmentation/pothole600/testing/images\\0049.png",
+      "classes": [
+        "pothole"
+      ],
+      "num_classes": 1,
+      "objects": 1,
+      "image_size": {
+        "width": 400,
+        "height": 400
+      },
+      "resized_from": {
+        "width": 400,
+        "height": 400
+      },
+      "annotation_mode": "mask",
+      "annotation_format": "polygon",
+      "annotated_file": null,
+      "annotation_file": "annotations/sample_08_c1_pothole_annotation.polygons.json",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_09_c1_pothole.png",
+      "source": "D:/PhD/Datasets/segmentation/pothole600/validation/images\\0065.png",
+      "classes": [
+        "pothole"
+      ],
+      "num_classes": 1,
+      "objects": 1,
+      "image_size": {
+        "width": 400,
+        "height": 400
+      },
+      "resized_from": {
+        "width": 400,
+        "height": 400
+      },
+      "annotation_mode": "mask",
+      "annotation_format": "polygon",
+      "annotated_file": null,
+      "annotation_file": "annotations/sample_09_c1_pothole_annotation.polygons.json",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_10_c1_pothole.png",
+      "source": "D:/PhD/Datasets/segmentation/pothole600/testing/images\\0163.png",
+      "classes": [
+        "pothole"
+      ],
+      "num_classes": 1,
+      "objects": 1,
+      "image_size": {
+        "width": 400,
+        "height": 400
+      },
+      "resized_from": {
+        "width": 400,
+        "height": 400
+      },
+      "annotation_mode": "mask",
+      "annotation_format": "polygon",
+      "annotated_file": null,
+      "annotation_file": "annotations/sample_10_c1_pothole_annotation.polygons.json",
+      "slider_ready": true
+    }
+  ],
+  "count": 10,
+  "slider_pairs": 10
+}

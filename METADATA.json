@@ -1,0 +1,160 @@
+{
+  "schema_version": "1.0",
+  "basic_info": {
+    "id": "pothole600-segmentation",
+    "name": "Pothole-600",
+    "short_name": "pothole600-seg",
+    "description": "Segmentation packaging of Pothole-600 with pixel-level pothole masks for top-down road-surface imagery.",
+    "year": 2020
+  },
+  "project_context": {
+    "task": "segmentation",
+    "tasks": [
+      "segmentation"
+    ],
+    "damage_types": [
+      "pothole"
+    ],
+    "task_classification": {
+      "primary_task": "segmentation",
+      "task_subtype": "semantic_segmentation"
+    },
+    "segmentation_type": "semantic_segmentation",
+    "task_subtype": "semantic_segmentation"
+  },
+  "imaging_setup": {
+    "camera": "ZED stereo camera",
+    "camera_viewpoint": [
+      "top-down"
+    ],
+    "resolution": "400x400",
+    "lighting_conditions": "Outdoor road scenes with natural illumination variation",
+    "capture_height_mm": "Not reported",
+    "geotagged": false,
+    "resolution_details": [
+      {
+        "resolution": "400x400",
+        "count": 600
+      }
+    ]
+  },
+  "annotation_schema": [
+    {
+      "type": "segmentation_mask",
+      "description": "Binary pothole masks paired with each image",
+      "classes": [
+        {
+          "id": 1,
+          "name": "pothole",
+          "description": "Pothole-600 class: pothole",
+          "color": "#294F71"
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "n_images": 600,
+    "n_annotations": 621,
+    "n_images_with_annotations": 600,
+    "average_annotations_per_image": 1.035,
+    "dataset_size": "164.12 MB",
+    "dataset_size_bytes": 172089951,
+    "dataset_file_count": 1200,
+    "image_format": "png_masks",
+    "class_distribution": {
+      "pothole": 621
+    },
+    "split": {
+      "training": {
+        "n_images": 240,
+        "percentage": 0.4,
+        "n_images_with_annotations": 240,
+        "annotation_coverage": 1.0,
+        "dataset_size": "64.15 MB",
+        "dataset_size_bytes": 67270118,
+        "dataset_file_count": 480
+      },
+      "validation": {
+        "n_images": 180,
+        "percentage": 0.3,
+        "n_images_with_annotations": 180,
+        "annotation_coverage": 1.0,
+        "dataset_size": "46.83 MB",
+        "dataset_size_bytes": 49105949,
+        "dataset_file_count": 360
+      },
+      "testing": {
+        "n_images": 180,
+        "percentage": 0.3,
+        "n_images_with_annotations": 180,
+        "annotation_coverage": 1.0,
+        "dataset_size": "53.13 MB",
+        "dataset_size_bytes": 55713884,
+        "dataset_file_count": 360
+      }
+    }
+  },
+  "geographic_coverage": {
+    "countries": [
+      {
+        "name": "China",
+        "image_count": 600,
+        "annotated_image_count": 600,
+        "annotation_coverage": 1.0
+      }
+    ],
+    "temporal_scope": "Published 2020, with cited supporting works from 2018-2019"
+  },
+  "quality_assurance": {
+    "annotation_quality": "Pixel-level masks distributed with the source Pothole-600 release",
+    "inter_annotator_agreement": "Not reported",
+    "review_status": "Published research dataset"
+  },
+  "authors": [
+    {
+      "name": "Rui (Ranger) Fan",
+      "affiliation": "UC San Diego",
+      "role": "Dataset Creator"
+    },
+    {
+      "name": "Hengli Wang",
+      "affiliation": "HKUST",
+      "role": "Dataset Creator"
+    },
+    {
+      "name": "Mohammud Junaid Bocus",
+      "affiliation": "University of Bristol",
+      "role": "Dataset Creator"
+    },
+    {
+      "name": "Ming Liu",
+      "affiliation": "HKUST",
+      "role": "Dataset Creator"
+    }
+  ],
+  "license": "No explicit license stated in source website",
+  "links": {
+    "github": "https://github.com/large-road-damage-datalake/pothole600-segmentation",
+    "download": "https://sites.google.com/view/pothole-600/dataset#h.hfq3mg1r7l4l",
+    "paper": "https://ieeexplore.ieee.org/abstract/document/8890001",
+    "homepage": "https://sites.google.com/view/pothole-600"
+  },
+  "citation": {
+    "bibtex": "@article{fan2018roadsurface3d,\n  title = {Road surface 3D reconstruction based on dense subpixel disparity map estimation},\n  author = {Fan, R. and Ai, X. and Dahnoun, N.},\n  journal = {IEEE Transactions on Image Processing},\n  year = {2018},\n  url = {https://ieeexplore.ieee.org/abstract/document/8300645}\n}\n\n@article{fan2019pothole,\n  title = {Pothole detection based on disparity transformation and road surface modeling},\n  author = {Fan, R. and Ozgunalp, U. and Hosking, B. and Liu, M. and Pitas, I.},\n  journal = {IEEE Transactions on Image Processing},\n  year = {2019},\n  url = {https://ieeexplore.ieee.org/abstract/document/8809907}\n}\n\n@article{fan2019roaddamage,\n  title = {Road damage detection based on unsupervised disparity map segmentation},\n  author = {Fan, R. and Liu, M.},\n  journal = {IEEE Transactions on Intelligent Transportation Systems},\n  year = {2019},\n  url = {https://ieeexplore.ieee.org/abstract/document/8890001}\n}"
+  },
+  "tags": [
+    "segmentation",
+    "pothole",
+    "pothole600",
+    "png-masks",
+    "china",
+    "top-down"
+  ],
+  "source_publication": {
+    "dataset_doi": "Not provided",
+    "article_doi": "Not provided",
+    "article_title": "Road damage detection based on unsupervised disparity map segmentation",
+    "journal": "IEEE Transactions on Intelligent Transportation Systems",
+    "year": 2019
+  }
+}
