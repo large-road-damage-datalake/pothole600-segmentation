@@ -205,7 +205,7 @@
         "pothole"
       ],
       "num_classes": 1,
-      "objects": 1,
+      "objects": 3,
       "image_size": {
         "width": 400,
         "height": 400

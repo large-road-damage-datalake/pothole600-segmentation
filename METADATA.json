@@ -54,15 +54,15 @@
   ],
   "statistics": {
     "n_images": 600,
-    "n_annotations": 621,
+    "n_annotations": 623,
     "n_images_with_annotations": 600,
-    "average_annotations_per_image": 1.035,
+    "average_annotations_per_image": 1.0383333333333333,
     "dataset_size": "164.12 MB",
     "dataset_size_bytes": 172089951,
     "dataset_file_count": 1200,
     "image_format": "png_masks",
     "class_distribution": {
-      "pothole": 621
+      "pothole": 623
     },
     "split": {
       "training": {

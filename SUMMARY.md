@@ -4,7 +4,7 @@
 - Source dataset: Pothole-600
 - Task: segmentation
 - Image count: 600
-- Annotation count: 621
+- Annotation count: 623
 - Class setup: 1 (pothole)
 
 Supporting references:

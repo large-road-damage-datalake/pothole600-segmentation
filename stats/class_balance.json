@@ -10,9 +10,9 @@
     [
       "pothole",
       600,
-      621,
-      1.035,
-      6.7539
+      623,
+      1.0383,
+      6.6675
     ]
   ],
   "description": "Images column counts images containing at least one object of class.",

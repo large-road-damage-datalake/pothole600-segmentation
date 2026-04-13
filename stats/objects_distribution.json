@@ -13,9 +13,9 @@
   "z": [
     [
       0,
-      580,
+      579,
       19,
-      1
+      2
     ]
   ],
   "description": "Value = number of images where class has exactly x objects."
