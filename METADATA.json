@@ -112,23 +112,18 @@
   },
   "authors": [
     {
-      "name": "Rui (Ranger) Fan",
-      "affiliation": "UC San Diego",
-      "role": "Dataset Creator"
-    },
-    {
-      "name": "Hengli Wang",
-      "affiliation": "HKUST",
-      "role": "Dataset Creator"
-    },
-    {
-      "name": "Mohammud Junaid Bocus",
+      "name": "Rui Fan",
       "affiliation": "University of Bristol",
       "role": "Dataset Creator"
     },
     {
-      "name": "Ming Liu",
-      "affiliation": "HKUST",
+      "name": "Xiao Ai",
+      "affiliation": "University of Bristol",
+      "role": "Dataset Creator"
+    },
+    {
+      "name": "Naim Dahnoun",
+      "affiliation": "University of Bristol",
       "role": "Dataset Creator"
     }
   ],
@@ -136,7 +131,7 @@
   "links": {
     "github": "https://github.com/large-road-damage-datalake/pothole600-segmentation",
     "download": "https://sites.google.com/view/pothole-600/dataset#h.hfq3mg1r7l4l",
-    "paper": "https://ieeexplore.ieee.org/abstract/document/8890001",
+    "paper": "https://ieeexplore.ieee.org/abstract/document/8300645",
     "homepage": "https://sites.google.com/view/pothole-600"
   },
   "citation": {
@@ -152,9 +147,9 @@
   ],
   "source_publication": {
     "dataset_doi": "Not provided",
-    "article_doi": "Not provided",
-    "article_title": "Road damage detection based on unsupervised disparity map segmentation",
-    "journal": "IEEE Transactions on Intelligent Transportation Systems",
-    "year": 2019
+    "article_doi": "10.1109/TIP.2018.2808770",
+    "article_title": "Road Surface 3D Reconstruction Based on Dense Subpixel Disparity Map Estimation",
+    "journal": "IEEE Transactions on Image Processing",
+    "year": 2018
   }
 }
