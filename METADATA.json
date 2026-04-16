@@ -20,7 +20,8 @@
       "task_subtype": "semantic_segmentation"
     },
     "segmentation_type": "semantic_segmentation",
-    "task_subtype": "semantic_segmentation"
+    "task_subtype": "semantic_segmentation",
+    "label_taxonomy_version": "road_damage_v1"
   },
   "imaging_setup": {
     "camera": "ZED stereo camera",
@@ -47,7 +48,9 @@
           "id": 1,
           "name": "pothole",
           "description": "Pothole-600 class: pothole",
-          "color": "#294F71"
+          "color": "#294F71",
+          "canonical_name": "pothole",
+          "instances": 623
         }
       ]
     }
@@ -69,7 +72,7 @@
         "n_images": 240,
         "percentage": 0.4,
         "n_images_with_annotations": 240,
-        "annotation_coverage": 1.0,
+        "annotation_coverage": 1,
         "dataset_size": "64.15 MB",
         "dataset_size_bytes": 67270118,
         "dataset_file_count": 480
@@ -78,7 +81,7 @@
         "n_images": 180,
         "percentage": 0.3,
         "n_images_with_annotations": 180,
-        "annotation_coverage": 1.0,
+        "annotation_coverage": 1,
         "dataset_size": "46.83 MB",
         "dataset_size_bytes": 49105949,
         "dataset_file_count": 360
@@ -87,7 +90,7 @@
         "n_images": 180,
         "percentage": 0.3,
         "n_images_with_annotations": 180,
-        "annotation_coverage": 1.0,
+        "annotation_coverage": 1,
         "dataset_size": "53.13 MB",
         "dataset_size_bytes": 55713884,
         "dataset_file_count": 360
@@ -100,7 +103,7 @@
         "name": "China",
         "image_count": 600,
         "annotated_image_count": 600,
-        "annotation_coverage": 1.0
+        "annotation_coverage": 1
       }
     ],
     "temporal_scope": "Published 2020, with cited supporting works from 2018-2019"
@@ -151,5 +154,30 @@
     "article_title": "Road Surface 3D Reconstruction Based on Dense Subpixel Disparity Map Estimation",
     "journal": "IEEE Transactions on Image Processing",
     "year": 2018
+  },
+  "class_taxonomy": {
+    "version": "road_damage_v1",
+    "classes": [
+      {
+        "canonical_name": "pothole",
+        "display_name": "Pothole",
+        "damage_family": "pothole",
+        "damage_subtype": "generic",
+        "role": "damage_target",
+        "is_damage_target": true,
+        "aliases": [
+          "pothole"
+        ],
+        "source_labels": [
+          "pothole"
+        ],
+        "taxonomy_source": "registry",
+        "taxonomy_unresolved": false
+      }
+    ],
+    "damage_types": [
+      "pothole"
+    ],
+    "unresolved_labels": []
   }
 }
