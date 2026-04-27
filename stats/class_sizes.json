@@ -15,16 +15,16 @@
   "data": [
     [
       "pothole",
-      623,
-      6.4213,
+      622,
+      6.4316,
       52.1244,
-      0.0013,
-      1.0,
-      0.25,
+      0.045,
+      5.0,
+      1.25,
       400.0,
       100.0,
-      118.2,
-      29.5498
+      118.39,
+      29.5969
     ]
   ],
   "description": "Area and height are relative to image size where (%) columns are 0-100 scale."

@@ -6,15 +6,13 @@ Pothole-600 is a task-specific segmentation package with paired pothole masks.
 
 - Task: segmentation
 - Images: 600
-- Annotations: 623
+- Annotations: 622
 - Classes: 1 (pothole)
 - Annotation format: paired PNG masks
 
 ## Split Summary
 
-- training: 240 images
-- validation: 180 images
-- testing: 180 images
+- split details unavailable
 
 ## Source Dataset
 

@@ -1,27 +1,53 @@
 {
   "total_images": 600,
-  "total_annotations": 623,
+  "total_annotations": 622,
   "total_classes": 1,
+  "annotated_images": 600,
+  "annotation_coverage": 1.0,
+  "image_resolution_histogram": {
+    "400x400": 600
+  },
+  "resolution_details": [
+    {
+      "resolution": "400x400",
+      "count": 600
+    }
+  ],
   "splits_breakdown": {
     "training": {
       "images": 240,
       "annotations": 244,
+      "annotated_images": 240,
+      "annotation_coverage": 1.0,
       "classes": {
         "pothole": 244
+      },
+      "image_resolution_histogram": {
+        "400x400": 240
       }
     },
     "validation": {
       "images": 180,
       "annotations": 180,
+      "annotated_images": 180,
+      "annotation_coverage": 1.0,
       "classes": {
         "pothole": 180
+      },
+      "image_resolution_histogram": {
+        "400x400": 180
       }
     },
     "testing": {
       "images": 180,
-      "annotations": 199,
+      "annotations": 198,
+      "annotated_images": 180,
+      "annotation_coverage": 1.0,
       "classes": {
-        "pothole": 199
+        "pothole": 198
+      },
+      "image_resolution_histogram": {
+        "400x400": 180
       }
     }
   }
